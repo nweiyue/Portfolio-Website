@@ -2,9 +2,7 @@
 <img src="image/portfolio_website_thumbnail.png" width=638px height=337px align="center">
 
 My personal portfolio website that contains some information about me and the projects that I did.
-[Check me out!](https://nweiyue.github.io/Portfolio-Website/
-
-## Getting Started
+[Check me out!](https://nweiyue.github.io/Portfolio-Website/)
 
 ## Built With
 
