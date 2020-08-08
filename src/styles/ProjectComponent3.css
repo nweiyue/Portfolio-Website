@@ -1,0 +1,175 @@
+#projectComponent3 {
+  background-color: black;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+#projectComponent3 img {
+  float: left;
+  padding-right: 20px;
+}
+
+/* #projectComponent3 img :hover {
+    background-color: aqua;
+} */
+
+#projectComponent3 .content {
+  color: #afb6b3;
+  height: 350px;
+}
+
+#projectComponent3 .content .projectTitle {
+  padding-top: 5px;
+  color: #04c2c9;
+  font-size: 24px;
+}
+
+#projectComponent3 .content .projectDescription {
+  position: relative;
+  top: -10px;
+  text-align: start;
+}
+
+#projectComponent3 .content .techStack {
+  position: relative;
+  top: -20px;
+  left: 20px;
+}
+
+#projectComponent3 #tech {
+  position: relative;
+  left: -20px;
+  color: #04c2c9;
+}
+
+#projectComponent3 Button:focus {
+  outline: 0;
+}
+
+#projectComponent3 Button {
+  position: relative;
+  top: -10px;
+  background-color: #f9fafa;
+  border: none;
+  border-radius: 5px !important;
+  width: 200px;
+  height: 50px;
+  color: #24292e;
+}
+
+#projectComponent3 Button:hover {
+  background-color: #24292e;
+  color: #f9fafa;
+}
+
+#projectComponent3 .postButton {
+  margin-left: 30px;
+  background-color: #ffffff;
+  color: #343434;
+}
+
+#projectComponent3 .postButton:hover {
+  background-color: #343434;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1350px) {
+  #projectComponent3 {
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #projectComponent3 {
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #projectComponent3 {
+    background-color: black;
+    width: 90%;
+    padding-bottom: 70px;
+  }
+
+  #projectComponent3 img {
+    float: none;
+    padding-right: 0px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .thumbnail {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #projectComponent3 .content {
+    color: #afb6b3;
+    height: 350px;
+    text-align: center;
+  }
+
+  #projectComponent3 .content .projectTitle {
+    padding-top: 5px;
+    color: #04c2c9;
+    font-size: 24px;
+  }
+
+  #projectComponent3 .content .projectDescription {
+    position: relative;
+    top: -10px;
+    text-align: center;
+  }
+
+  #projectComponent3 .content .techStack {
+    position: relative;
+    top: -20px;
+    left: -20px;
+    list-style: none;
+  }
+
+  #projectComponent3 #tech {
+    position: relative;
+    left: 0px !important;
+    color: #04c2c9;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #projectComponent3 {
+    padding-bottom: 170px;
+  }
+
+  .buttons {
+    display: inline-block;
+  }
+
+  #projectComponent3 Button {
+    position: relative;
+    display: block;
+    top: -10px;
+    background-color: #f9fafa;
+    border: none;
+    border-radius: 5px !important;
+    width: 200px;
+    height: 50px;
+    color: #24292e;
+  }
+
+  #projectComponent3 .postButton {
+    margin-left: 0px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #343434;
+  }
+}

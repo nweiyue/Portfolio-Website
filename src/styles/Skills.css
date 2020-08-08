@@ -1,0 +1,45 @@
+#skills {
+  height: 560px;
+  width: 100%;
+  background-color: black;
+  padding-top: 56px;
+  border-bottom: 3px solid #afb6b3;
+}
+
+#skills h1 {
+  color: #04c2c9;
+}
+
+#skills h3 {
+  color: #04c2c9;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.languagesIcons {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.toolsIcons {
+  text-align: center;
+}
+
+#skills i {
+  color: white;
+  padding: 30px;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#skills i:hover {
+  color: #e31b6d;
+}
+
+@media only screen and (max-width: 560px) {
+  #skills {
+    height: 680px;
+    width: 100%;
+  }
+}

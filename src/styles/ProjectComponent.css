@@ -1,0 +1,166 @@
+#projectComponent {
+  background-color: black;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+#projectComponent img {
+  float: left;
+  padding-right: 20px;
+}
+
+/* #projectComponent img :hover {
+    background-color: aqua;
+} */
+
+#projectComponent .content {
+  color: #afb6b3;
+  height: 350px;
+}
+
+#projectComponent .content .projectTitle {
+  padding-top: 5px;
+  color: #04c2c9;
+  font-size: 24px;
+}
+
+#projectComponent .content .projectDescription {
+  position: relative;
+  top: -10px;
+  text-align: start;
+}
+
+#projectComponent .content .techStack {
+  position: relative;
+  top: -20px;
+  left: 20px;
+}
+
+#projectComponent #tech {
+  position: relative;
+  left: -20px !important;
+  color: #04c2c9;
+}
+
+#projectComponent Button:focus {
+  outline: 0;
+}
+
+#projectComponent Button {
+  position: relative;
+  top: -10px;
+  background-color: #f9fafa;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  color: #24292e;
+  text-decoration: none;
+}
+
+#projectComponent Button:hover {
+  background-color: #24292e;
+  color: #f9fafa;
+}
+
+#projectComponent .videoButton {
+  margin-left: 30px;
+  background-color: #ffffff;
+  color: #ff0000;
+}
+
+#projectComponent .videoButton:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1350px) {
+  #projectComponent {
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #projectComponent {
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 70px;
+  }
+
+  #projectComponent img {
+    float: none;
+    padding-right: 0px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .thumbnail {
+    display: block;
+    text-align: center;
+  }
+
+  #projectComponent .content {
+    color: #afb6b3;
+    height: 350px;
+    text-align: center;
+  }
+
+  #projectComponent .content .projectTitle {
+    padding-top: 5px;
+    color: #04c2c9;
+    font-size: 24px;
+  }
+
+  #projectComponent .content .projectDescription {
+    position: relative;
+    top: -10px;
+    text-align: center;
+  }
+
+  #projectComponent .content .techStack {
+    position: relative;
+    top: -20px;
+    left: -20px;
+    list-style: none;
+  }
+
+  #projectComponent #tech {
+    position: relative;
+    left: 0px !important;
+    color: #04c2c9;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #projectComponent {
+    padding-bottom: 150px;
+  }
+
+  .buttons {
+    display: inline-block;
+  }
+
+  #projectComponent Button {
+    position: relative;
+    display: block;
+    top: -10px;
+    background-color: #f9fafa;
+    border: none;
+    border-radius: 5px !important;
+    width: 200px;
+    height: 50px;
+    color: #24292e;
+  }
+
+  #projectComponent .videoButton {
+    margin-left: 0px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    color: #ff0000;
+  }
+}

@@ -1,0 +1,160 @@
+#projectComponent4 {
+  background-color: black;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+#projectComponent4 img {
+  float: right;
+  padding-left: 20px;
+}
+
+/* #projectComponent4 img :hover {
+    background-color: aqua;
+} */
+
+#projectComponent4 .content {
+  padding-left: 20px;
+  color: #afb6b3;
+  height: 350px;
+}
+
+#projectComponent4 .content .projectTitle {
+  padding-top: 10px;
+  color: #04c2c9;
+  font-size: 24px;
+}
+
+#projectComponent4 .content .projectDescription {
+  position: relative;
+  top: -10px;
+  text-align: start;
+}
+
+#projectComponent4 .content .techStack {
+  position: relative;
+  top: 30px;
+  right: 20px;
+}
+
+#projectComponent4 #tech {
+  position: relative;
+  right: 20px;
+  color: #04c2c9;
+}
+
+#projectComponent4 .gitHubButton:focus {
+  outline: 0;
+}
+
+#projectComponent4 .gitHubButton {
+  position: relative;
+  top: 50px;
+  background-color: #f9fafa;
+  border: none;
+  border-radius: 5px !important;
+  width: 200px;
+  height: 50px;
+  color: #24292e;
+}
+
+#projectComponent4 .gitHubButton:hover {
+  background-color: #24292e;
+  color: #f9fafa;
+}
+
+@media only screen and (max-width: 1350px) {
+  #projectComponent4 {
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #projectComponent4 {
+    background-color: black;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 0px;
+  }
+
+  .thumbnail {
+    display: block;
+    text-align: center;
+  }
+
+  #projectComponent4 img {
+    float: none;
+    padding-left: 0px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #projectComponent4 .content {
+    padding-left: 0px;
+    color: #afb6b3;
+    height: 350px;
+    text-align: center;
+  }
+
+  #projectComponent4 .content .projectTitle {
+    padding-top: 10px;
+    color: #04c2c9;
+    font-size: 24px;
+  }
+
+  #projectComponent4 .content .projectDescription {
+    position: relative;
+    top: -10px;
+    text-align: center;
+  }
+
+  #projectComponent4 .content .techStack {
+    position: relative;
+    top: -20px;
+    right: 20px;
+    list-style: none;
+  }
+
+  #projectComponent4 #tech {
+    position: relative;
+    right: 0px;
+    color: #04c2c9;
+  }
+
+  #projectComponent4 .gitHubButton {
+    position: relative;
+    top: -10px;
+    background-color: #f9fafa;
+    border: none;
+    border-radius: 5px !important;
+    width: 200px;
+    height: 50px;
+    color: #24292e;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #projectComponent4 {
+    padding-bottom: 0px;
+  }
+
+  .buttons {
+    display: inline-block;
+  }
+
+  #projectComponent4 .gitHubButton {
+    position: relative;
+    display: block;
+    top: -10px;
+    background-color: #f9fafa;
+    border: none;
+    border-radius: 5px !important;
+    width: 200px;
+    height: 50px;
+    color: #24292e;
+  }
+}

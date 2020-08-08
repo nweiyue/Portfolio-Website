@@ -1,0 +1,48 @@
+#contact {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  padding-top: 56px;
+}
+
+#contact h1 {
+  color: #04c2c9;
+}
+
+.socialIcons {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#contact a {
+  color: white;
+  padding: 30px;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#contact i:hover {
+  color: #e31b6d;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+footer span {
+  color: #e31b6d;
+}
+
+@media only screen and (max-width: 640px) {
+  #contact a {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  #contact a {
+    padding: 10px;
+  }
+}

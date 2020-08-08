@@ -1,0 +1,105 @@
+nav {
+  background: black;
+  height: 72px;
+  width: 100%;
+  border-bottom: 3px solid #04c2c9;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  padding: 10px 10px 10px 10px;
+}
+
+nav .links {
+  float: right;
+  margin-right: 10px;
+}
+
+nav .links li {
+  display: inline-block;
+  line-height: 70px;
+  margin: 0px 10px;
+}
+
+nav .links li a {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+nav .links li :active {
+  color: #e31b6d;
+  text-decoration: none;
+}
+
+nav .links li :hover {
+  color: #e31b6d;
+  text-decoration: none;
+}
+
+.toggle-button {
+  position: absolute;
+  display: none;
+  top: 1.5rem;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30px;
+  width: 40px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* @media only screen and (max-width: 1200px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    nav {
+        height: 78px;
+    }
+
+    .logo {
+        position: relative;
+        top: 2px;
+        left: 2px;
+        float: none;
+    }
+
+    nav .links {
+        float: none;
+        margin: 0;
+    }
+
+    nav .links ul{
+        flex-direction: column;
+        display: none;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .links:active {
+        display: flex;
+    }
+
+} */
+
+@media only screen and (max-width: 500px) {
+  nav .links li a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav .links li a {
+    font-size: 9px;
+  }
+}
