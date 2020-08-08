@@ -20,7 +20,7 @@ class ProjectComponent4 extends React.Component {
         <div className="content">
           <p className="projectTitle">RemindMe Bot</p>
           <p className="projectDescription">
-            A simple python telegram bot that allow users to set reminders base
+            A simple python telegram bot that allows users to set reminders base
             on a timer.
           </p>
           <ul className="techStack">
