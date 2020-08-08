@@ -59,10 +59,10 @@
   text-decoration: none;
 }
 
-#projectComponent Button:hover {
+/* #projectComponent Button:hover {
   background-color: #24292e;
   color: #f9fafa;
-}
+} */
 
 #projectComponent .videoButton {
   margin-left: 30px;

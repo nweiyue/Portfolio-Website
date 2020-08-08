@@ -38,6 +38,7 @@ class ProjectComponent extends React.Component {
               className="gitHubButton"
               target="_blank"
               type="button"
+              disabled
               onClick={(e) => {
                 e.preventDefault();
                 window.open(
@@ -46,9 +47,8 @@ class ProjectComponent extends React.Component {
                 );
               }}
             >
-              <i className="fab fa-github"></i> Link to GitHub
+              <i className="fab fa-github"></i> Coming Soon
             </button>
-
             <button
               className="videoButton"
               target="_blank"
